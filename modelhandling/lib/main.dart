@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:modelhandling/model/studentmodel.dart';
+import 'package:modelhandling/screen/chat_screen.dart';
 import 'package:modelhandling/screen/login_screen.dart';
 import 'package:modelhandling/screen/product_screen.dart';
 import 'package:modelhandling/screen/student_screen%20(2)%20(1).dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple),),
-      home: LoginPage(),
+      home: ChatPage(username:"Sidrick_Alimagno598"),
     );
   }
 }
